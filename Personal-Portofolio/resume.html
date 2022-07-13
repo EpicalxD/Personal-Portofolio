@@ -7,60 +7,53 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&family=Gulzar&family=Oswald&display=swap"
+  <link
+    href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&family=Gulzar&family=Merienda+One&family=Oswald&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
   <title>Alex. M</title>
 </head>
 
 <body>
   <header>
 
-    <div class="logo-container text-main ">
-      <a href="/index.html" class="logo-big text-light text-light-mode">{ color: <span
-          class="enhanced-color">smile</span>; }
-      </a>
-    </div>
+    <div class="navbar-main-container  navbar-main-container-mediu navbar">
+      <div class="logo-container text-main ">
+        <a href="/index.html" class="logo-big text-light text-light-mode">{ display: <span
+            class="enhanced-color">smile</span>; }
+        </a>
+      </div>
+      <div class="openMenu"><i class="fa fa-bars"></i></div>
 
-    <div class="navbar-main-container">
-      <ul class="navbar-links">
+      <ul class="navbar-links mainMenu">
         <li><a href="/index.html" class="link text-light-mode">About Me</a></li>
         <li><a href="/portofolio.html" class="link text-light-mode">Portofolio</a></li>
         <li><a href="/resume.html" class="link text-light-mode">Resume</a></li>
         <li><a href="/contact.html" class="link text-light-mode">Contact</a></li>
+        <div class="closeMenu"><i class="fa fa-times"></i></div><span class="icons">
+          <div class="nav-social-links">
+            <a href="https://www.linkedin.com/in/morschl-alex/"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/EpicalxD"><i class="fab fa-github"></i></a>
+
+          </div>
+        </span>
       </ul>
-
-      <ul class="header-social-links">
-        <li><a href="https://www.linkedin.com/in/morschl-alex/" class="text-light-mode ">
-            <p class="test"><i class="fab fa-linkedin "></i> LinkedIn</p>
-          </a></li>
-
-        <li> <a href="https://github.com/EpicalxD" class="text-light-mode">
-            <p class="test"><i class="fab fa-github"></i> GitHub</p>
-          </a></li>
-
-        <li> <a href="/portofolio.html" class="text-light-mode">
-            <p class="test"><i class="fas fa-brush"></i>
-              Portofolio</p>
-          </a></li>
-
-        <li><a href="/resume.html" class="text-light-mode">
-            <p class="test"><i class="fas fa-file-alt"></i>
-              </i>
-              Resume</p>
-          </a></li>
-
-      </ul>
+      <div class="call-to-action-container  text-light">
+        <h1 class="resume-cta-btn">Online <span class="enhanced-color">Resume</span></h1>
+        <a class="action-btn btn" href="#">Download PDF Version</a>
+      </div>
     </div>
+
+
+    </div>
+
   </header>
 
-  <div class="call-to-action-resume">
-    <h1>Online <span class="enhanced-color">Resume</span></h1>
-    <a class="action-btn" href="#">Download PDF Version</a>
 
-  </div>
+
 
   <section class="skills">
     <h2 class="text-main-header">Skills</h2>
@@ -117,7 +110,8 @@
 
     <div class="container-7">
 
-      <h3 class="text-main">I Graduated in Automatics and Applied Informatics as an "Engineer" at Aurel Vlaicu
+      <h3 class="text-main">I Graduated in <span class="enhanced-color">Automatics and Applied Informatics</span> as an
+        "Engineer" at Aurel Vlaicu
         University , Arad</h3>
       <p class="text-main">While in university, related to programming I learned a bit of C# and C++, I had courses
         about WEB technology,
@@ -129,25 +123,26 @@
   </section>
 
 
-
-
-
-
-
-
   <footer>
+    <div class="footer-text">
+      <h2 class="text-second-header">Lorem, ipsum dolor.</h2>
+      <p class="text-main">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab quaerat, officia expedita
+        voluptatum corporis
+        culpa eos dignissimos accusantium odit explicabo voluptate est doloremque natus pariatur laudantium. Repellendus
+        fuga excepturi aut.</p>
+    </div>
 
     <div class="social-container">
 
       <div class="social-link">
         <a href="https://www.linkedin.com/in/morschl-alex/" class=" social-link">
-          <p class="link-bottom text-light"><i class="fab fa-linkedin social-logo"></i> LinkedIn</p>
+          <i class="fab fa-linkedin social-logo"></i>
         </a>
       </div>
 
       <div class="social-link">
-        <a href="https://github.com/EpicalxD" class="social-link">
-          <p class="link-bottom text-light"><i class="fab fa-github social-logo"></i> GitHub</p>
+        <a href="https://github.com/EpicalxD">
+          <i class="fab fa-github social-logo"></i>
         </a>
       </div>
 
@@ -157,6 +152,9 @@
     </div>
   </footer>
 
+
+
+  <script src="/js/main.js"></script>
 </body>
 
 </html>
